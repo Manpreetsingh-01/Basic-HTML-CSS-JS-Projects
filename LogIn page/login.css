@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main{
+    display: flex;
+}
+.container1{
+    height: 650px;
+    width: 35%;
+    background-color: #186ede;
+    color: white;
+    background-image: url(crypto.jpg);
+    background-size: cover;
+}
+.logoname{
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.container2{
+    width: 65%;
+    background-color:#001219;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+}
+form{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding: 50px;
+    margin-top: 60px;
+    color: grey;
+}
+.f{
+    display: block;
+    border: 1.5px solid transparent;
+    border-bottom: 1px solid #111A23;
+    background-color: #001219;
+    font-size: 1rem;
+    padding: 6px 6px 6px 10px;
+}
+.f:active{
+    border: 1.5px solid #186ede;
+}
+button{
+    height: 60px;
+    width: 180px;
+    border-radius: 4px;
+    border: 1.5px solid transparent;
+    font-size: 1.2rem;
+    background-color: #ee9b00;
+    color: white
+}
+button:active{
+    border: 1.5px solid white;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+form a{
+    color: #ee9b00;
+    text-decoration: none;
+}
